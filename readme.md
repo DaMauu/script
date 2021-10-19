@@ -1,5 +1,5 @@
-[sshport](https://raw.githubusercontent.com/O7Y0/script/main/sshport.sh)
-1.如果提示没有安装wget输入以下命令
+[sshport](github.com/O7Y0/script/blob/main/sshport.sh")
+1.如果提示没有安装wget输入以下命令/n
 #安装wget
 yum install wget
 2.下载脚本
