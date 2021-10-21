@@ -51,3 +51,14 @@ Usage:
 | 6        | uname -r 查看内核版本
 | 7        | sysctl net.ipv4.tcp_available_congestion_control 查值,有查不查无所谓
 | 8        | mount -o remount rw /  重启后磁盘变为只读情况需执行以下命令恢复
+
+## bench.sh秋水逸冰
+
+- 脚本说明: 自动测试 I/O 和上传下载速度剧本
+```bash
+Usage:
+
+| No.      | Bash Command                    
+|----------|---------------------------------
+| 1        | yum install wget
+| 1        | wget -N --no-check-certificate https://github.com/O7Y0/script/raw/main/bench.sh && chmod +x bench.sh && bash bench.sh
