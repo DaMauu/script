@@ -67,9 +67,9 @@ Usage:
 |----------|---------------------------------
 | 1        | yum install wget
 | 2        | wget -N --no-check-certificate "https://raw.githubusercontent.com/O7Y0/script/main/4-1bbr.sh" && chmod +x 4-1bbr.sh && ./4-1bbr.sh
-| 5        | n 又可以出现询问卸载内核之类的
-| 6        | y 重启
-| 6        | ./4-1bbr.sh 重新开始使用后续操作
+| 3        | n 又可以出现询问卸载内核之类的
+| 4        | y 重启
+| 5        | ./4-1bbr.sh 重新开始使用后续操作
 ```
 ![4-1bbr.png](https://raw.githubusercontent.com/O7Y0/script/main/4-1bbr.png)
 ## bench-cn.sh|秋水逸冰
