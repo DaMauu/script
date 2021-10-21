@@ -19,7 +19,7 @@ Usage:
 
 | No.      | Bash Command                    
 |----------|---------------------------------
-| 1        | yum install wget  
+| 1        | yum install wget
 | 2        | wget -N --no-check-certificate https://raw.githubusercontent.com/O7Y0/script/main/sshport.sh && chmod +x sshport.sh && bash sshport.sh
 | 3        | 50000（或者任意你稀罕的）
 | 4        | firewall:把修改的ssh端口添加到防火墙的放行端口,一定要执行这一步
@@ -33,13 +33,20 @@ Usage:
 | 12       | reboot
 | 13       | 使用修改后的端口登录
 ```
-## bbr.sh
+## bbr.sh秋水逸冰
 
-- 脚本说明: Linux一键更换默认端口
+- 脚本说明: BBR加速
 
 ```bash
 Usage:
 
 | No.      | Bash Command                    
 |----------|---------------------------------
-| 1        | yum install wget  
+| 1        | yum install wget
+| 2        | wget --no-check-certificate -O /opt/bbr.sh https://github.com/teddysun/across/raw/master/bbr.sh
+| 3        | chmod 755 /opt/bbr.sh
+| 4        | /opt/bbr.sh
+| 5        | reboot
+| 6        | uname -r 查看内核版本
+| 7        | sysctl net.ipv4.tcp_available_congestion_control 查值,有查不查无所谓
+| 8        | mount -o remount rw /  重启后磁盘变为只读情况需执行以下命令恢复
