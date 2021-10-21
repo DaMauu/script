@@ -43,7 +43,7 @@ Usage:
 | No.      | Bash Command                    
 |----------|---------------------------------
 | 1        | yum install wget
-| 2        | wget --no-check-certificate -O /opt/bbr.sh https://github.com/O7Y0/script/raw/master/bbr.sh
+| 2        | wget --no-check-certificate -O /opt/bbr.sh https://github.com/O7Y0/script/raw/main/bbr.sh
 | 3        | chmod 755 /opt/bbr.sh
 | 4        | /opt/bbr.sh
 | 5        | reboot
