@@ -83,11 +83,11 @@ Usage:
 |----------|---------------------------------
 | /        | CentOS / RHEL
 | 1        | yum install wget
-| 1        | yum groupinstall "Development Tools" -y
-| 1        | wget https://raw.githubusercontent.com/O7Y0/script/raw/main/memtester.cpp
-| 1        | gcc -l stdc++ memtester.cpp
-| 1        | ./a.out
-| 1        | yum install wget
+| 2        | yum groupinstall "Development Tools" -y
+| 3        | wget https://raw.githubusercontent.com/O7Y0/script/raw/main/memtester.cpp
+| 4        | gcc -l stdc++ memtester.cpp
+| 5        | ./a.out
+|          | 
 | /        | Ubuntu / Debian：
 | 1        | apt-get update
 | 1        | apt-get install wget build-essential -y
