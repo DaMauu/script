@@ -100,6 +100,8 @@ Usage:
 ## uPing|FunctionClub
 
 - 脚本说明: 24小时监测VPS延迟
+- 警告
+目前正在测试阶段，请勿用于生产环境！
 ```bash
 Usage:
 | No.      | Bash Command                    
