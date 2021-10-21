@@ -6,7 +6,8 @@
 * [***MJ相关***](#代理相关)
   * [sshport.sh](#sshport)
   * [bbr.sh](#bbr)
-  * [bench.sh](#bench)
+  * [bench-cn.sh](#bench)
+  * [bench-abroad.sh](#bench-abroad)
 ---
 
 ## MJ相关
@@ -34,6 +35,7 @@ Usage:
 | 12       | reboot
 | 13       | 使用修改后的端口登录
 ```
+
 ## bbr.sh秋水逸冰
 
 - 脚本说明: BBR加速
@@ -51,8 +53,8 @@ Usage:
 | 6        | uname -r 查看内核版本
 | 7        | sysctl net.ipv4.tcp_available_congestion_control 查值,有查不查无所谓
 | 8        | mount -o remount rw /  重启后磁盘变为只读情况需执行以下命令恢复
-
-## bench.sh秋水逸冰
+```
+## bench-cn.sh秋水逸冰
 
 - 脚本说明: 自动测试 I/O 和上传下载速度剧本
 ```bash
@@ -61,4 +63,16 @@ Usage:
 | No.      | Bash Command                    
 |----------|---------------------------------
 | 1        | yum install wget
-| 1        | wget -N --no-check-certificate https://github.com/O7Y0/script/raw/main/bench.sh && chmod +x bench.sh && bash bench.sh
+| 2        | wget -N --no-check-certificate https://github.com/O7Y0/script/raw/main/bench-cn.sh && chmod +x bench-cn.sh && bash bench-cn.sh
+```
+## bench-abroad.sh秋水逸冰
+
+- 脚本说明: 自动测试 I/O 和上传下载速度剧本
+```bash
+Usage:
+
+| No.      | Bash Command                    
+|----------|---------------------------------
+| 1        | yum install wget
+| 2        | wget -N --no-check-certificate https://github.com/O7Y0/script/raw/main/bench-abroad.sh && chmod +x bench-abroad.sh && bash bench-abroad.sh
+```
