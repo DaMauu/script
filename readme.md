@@ -20,7 +20,7 @@ Usage:
 | No.      | Bash Command                    
 |----------|---------------------------------
 | 1        | yum install wget
-| 2        | wget -N --no-check-certificate https://raw.githubusercontent.com/O7Y0/script/main/sshport.sh && chmod +x sshport.sh && bash sshport.sh
+| 2        | wget -N --no-check-certificate https://github.com/O7Y0/script/raw/main/sshport.sh && chmod +x sshport.sh && bash sshport.sh
 | 3        | 50000（或者任意你稀罕的）
 | 4        | firewall:把修改的ssh端口添加到防火墙的放行端口,一定要执行这一步
 | 5        | #如果防火墙使用的iptables（Centos 6），修改端口为50000
