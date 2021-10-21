@@ -74,7 +74,7 @@ Usage:
 | 1        | yum install wget
 | 2        | wget -N --no-check-certificate https://github.com/O7Y0/script/raw/main/bench-abroad.sh && chmod +x bench-abroad.sh && bash bench-abroad.sh
 ```
-
+![bench-abroad.png](https://raw.githubusercontent.com/O7Y0/script/main/bench-abroad.png)
 ## memtester|FunctionClub
 
 - 脚本说明: 检测VPS真实可分配内存
