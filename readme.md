@@ -10,6 +10,7 @@
   * [bench-abroad.sh](#bench-abroad)
   * [memtester.cpp](#memtester)
   * [uping.py](#uping)
+  * [superspeed.sh](#superspeed)
 ---
 
 ## MJ相关
@@ -121,3 +122,13 @@ Usage:
 ```
 ![uping.png](https://raw.githubusercontent.com/O7Y0/script/main/uping.png)
 
+## superspeed|uxh
+
+- 脚本说明: 进行全国三大运营商speedtest测速节点测速
+```bash
+Usage:
+| No.      | Bash Command                    
+|----------|---------------------------------
+| 1        | yum install wget
+| 2        | wget -N --no-check-certificate https://github.com/O7Y0/script/raw/main/superspeed.sh && chmod +x superspeed.sh && bash superspeed.sh
+```
