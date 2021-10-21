@@ -36,7 +36,7 @@ Usage:
 | 13       | 使用修改后的端口登录
 ```
 
-## bbr.sh秋水逸冰
+## bbr.sh|秋水逸冰
 
 - 脚本说明: BBR加速
 
@@ -53,7 +53,7 @@ Usage:
 | 7        | sysctl net.ipv4.tcp_available_congestion_control 查值,有查不查无所谓
 | 8        | mount -o remount rw /  重启后磁盘变为只读情况需执行以下命令恢复
 ```
-## bench-cn.sh秋水逸冰
+## bench-cn.sh|秋水逸冰
 
 - 脚本说明: 自动测试 I/O 和上传下载速度剧本
 ```bash
@@ -63,7 +63,7 @@ Usage:
 | 1        | yum install wget
 | 2        | wget -N --no-check-certificate https://github.com/O7Y0/script/raw/main/bench-cn.sh && chmod +x bench-cn.sh && bash bench-cn.sh
 ```
-## bench-abroad.sh秋水逸冰
+## bench-abroad.sh|秋水逸冰
 
 - 脚本说明: 自动测试 I/O 和上传下载速度剧本
 ```bash
