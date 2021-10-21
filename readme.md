@@ -6,6 +6,7 @@
 * [***MJ相关***](#代理相关)
   * [sshport.sh](#sshport)
   * [bbr.sh](#bbr)
+  * [bench.sh](#bench)
 ---
 
 ## MJ相关
