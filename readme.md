@@ -5,6 +5,7 @@
 ## 脚本索引
 * [***MJ相关***](#代理相关)
   * [sshport.sh](#sshport)
+  * [bbr.sh](#bbr)
 ---
 
 ## MJ相关
