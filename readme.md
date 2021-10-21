@@ -119,4 +119,5 @@ Usage:
 | 4        | wget -N --no-check-certificate https://raw.githubusercontent.com/O7Y0/script/main/uping.py
 | 5        | python uping.py
 ```
-https://www.mrkevin.net/wp-content/uploads/2019/05/0076lr2Tgy1fs6d8oz9tdj30uc12g7bn.jpg
+![uping.png](https://raw.githubusercontent.com/O7Y0/script/main/uping.png)
+
