@@ -18,7 +18,6 @@
 
 ```bash
 Usage:
-
 | No.      | Bash Command                    
 |----------|---------------------------------
 | 1        | yum install wget
@@ -42,7 +41,6 @@ Usage:
 
 ```bash
 Usage:
-
 | No.      | Bash Command                    
 |----------|---------------------------------
 | 1        | yum install wget
@@ -59,7 +57,6 @@ Usage:
 - 脚本说明: 自动测试 I/O 和上传下载速度剧本
 ```bash
 Usage:
-
 | No.      | Bash Command                    
 |----------|---------------------------------
 | 1        | yum install wget
@@ -70,7 +67,6 @@ Usage:
 - 脚本说明: 自动测试 I/O 和上传下载速度剧本
 ```bash
 Usage:
-
 | No.      | Bash Command                    
 |----------|---------------------------------
 | 1        | yum install wget
