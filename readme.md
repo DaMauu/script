@@ -132,3 +132,4 @@ Usage:
 | 1        | yum install wget
 | 2        | wget -N --no-check-certificate https://github.com/O7Y0/script/raw/main/superspeed.sh && chmod +x superspeed.sh && bash superspeed.sh
 ```
+![SuperSpeed.png](https://raw.githubusercontent.com/O7Y0/script/main/SuperSpeed.png)
