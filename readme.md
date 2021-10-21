@@ -73,3 +73,25 @@ Usage:
 | 1        | yum install wget
 | 2        | wget -N --no-check-certificate https://github.com/O7Y0/script/raw/main/bench-abroad.sh && chmod +x bench-abroad.sh && bash bench-abroad.sh
 ```
+
+## memtester|FunctionClub
+
+- 脚本说明: 检测VPS真实可分配内存的小工具
+```bash
+Usage:
+| No.      | Bash Command                    
+|----------|---------------------------------
+| /        | CentOS / RHEL
+| 1        | yum install wget
+| 1        | yum groupinstall "Development Tools" -y
+| 1        | wget https://raw.githubusercontent.com/O7Y0/script/raw/main/memtester.cpp
+| 1        | gcc -l stdc++ memtester.cpp
+| 1        | ./a.out
+| 1        | yum install wget
+| /        | Ubuntu / Debian：
+| 1        | apt-get update
+| 1        | apt-get install wget build-essential -y
+| 1        | wget https://raw.githubusercontent.com/O7Y0/script/raw/main/memtester.cpp
+| 1        | gcc -l stdc++ memtester.cpp
+| 1        | ./a.out
+```
