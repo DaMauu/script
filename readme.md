@@ -33,3 +33,13 @@ Usage:
 | 12       | reboot
 | 13       | 使用修改后的端口登录
 ```
+## bbr.sh
+
+- 脚本说明: Linux一键更换默认端口
+
+```bash
+Usage:
+
+| No.      | Bash Command                    
+|----------|---------------------------------
+| 1        | yum install wget  
