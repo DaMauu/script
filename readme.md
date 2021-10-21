@@ -9,6 +9,7 @@
   * [bench-cn.sh](#bench)
   * [bench-abroad.sh](#bench-abroad)
   * [memtester.cpp](#memtester)
+  * [uping.py](#uping)
 ---
 
 ## MJ相关
@@ -76,7 +77,7 @@ Usage:
 
 ## memtester|FunctionClub
 
-- 脚本说明: 检测VPS真实可分配内存的小工具
+- 脚本说明: 检测VPS真实可分配内存
 ```bash
 Usage:
 | No.      | Bash Command                    
@@ -90,8 +91,29 @@ Usage:
 |          | 
 | /        | Ubuntu / Debian：
 | 1        | apt-get update
-| 1        | apt-get install wget build-essential -y
-| 1        | wget https://raw.githubusercontent.com/O7Y0/script/raw/main/memtester.cpp
-| 1        | gcc -l stdc++ memtester.cpp
-| 1        | ./a.out
+| 2        | apt-get install wget build-essential -y
+| 3        | wget https://raw.githubusercontent.com/O7Y0/script/raw/main/memtester.cpp
+| 4        | gcc -l stdc++ memtester.cpp
+| 5        | ./a.out
+```
+
+## uPing|FunctionClub
+
+- 脚本说明: 24小时监测VPS延迟
+```bash
+Usage:
+| No.      | Bash Command                    
+|----------|---------------------------------
+| /        | CentOS / RHEL
+| 1        | yum install screen wget python -y
+| 2        | screen -S uping
+| 3        | wget -N --no-check-certificate https://raw.githubusercontent.com/O7Y0/script/main/uping.py
+| 4        | python uping.py
+|          | 
+| /        | Ubuntu / Debian：
+| 1        | apt-get update
+| 2        | apt-get install python wget screen -y
+| 3        | screen -S uping
+| 4        | wget -N --no-check-certificate https://raw.githubusercontent.com/O7Y0/script/main/uping.py
+| 5        | python uping.py
 ```
