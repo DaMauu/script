@@ -151,3 +151,19 @@ Usage:
 | 2        | wget -N --no-check-certificate https://github.com/O7Y0/script/raw/main/superspeed.sh && chmod +x superspeed.sh && bash superspeed.sh
 ```
 ![SuperSpeed.png](https://raw.githubusercontent.com/O7Y0/script/main/SuperSpeed.png)
+
+## virt-what|Rat's
+
+- 脚本说明: 使用virt-what判断VPS虚拟化技术
+```bash
+Usage:
+| No.      | Bash Command                    
+|----------|---------------------------------
+| 1        | yum install wget
+| 2        | wget https://github.com/O7Y0/script/releases/download/virt-what/virt-what-1.11.tar.gz
+| 3        | tar zxf virt-what-1.11.tar.gz   #解压缩包
+| 4        | cd virt-what-1.11               #进入目录
+| 5        | ./configure                     #按默认设置
+| 6        | make && make install            #编译并安装
+| 7        | virt-what                       #查看
+```
