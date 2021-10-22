@@ -12,7 +12,7 @@
   * [memtester.cpp](#memtester)
   * [uping.py](#uping)
   * [superspeed.sh](#superspeed)
-  * [virt-what](#https://github.com/O7Y0/script/releases/tag/virt-what)
+  * [virt-what](https://github.com/O7Y0/script/releases/tag/virt-what)
 ---
 
 ## MJ相关
