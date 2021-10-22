@@ -4,15 +4,15 @@
 [![GitHub forks](https://img.shields.io/github/forks/O7Y0/script.svg?style=popout&label=Fork)](https://github.com/O7Y0/script/fork)
 ## 脚本索引
 * [***MJ相关***](#代理相关)
-  * [sshport.sh](#sshport)
-  * [bbr.sh](#bbr)
-  * [4-1bbr.sh](#4-1bbr)
-  * [bench-cn.sh](#bench)
-  * [bench-abroad.sh](#bench-abroad)
-  * [memtester.cpp](#memtester)
-  * [uping.py](#uping)
-  * [superspeed.sh](#superspeed)
-  * [virt-what](https://github.com/O7Y0/script/releases/tag/virt-what)
+  * [sshport.sh](https://github.com/O7Y0/script/blob/main/readme.md#sshportsh)
+  * [bbr.sh](https://github.com/O7Y0/script/blob/main/readme.md#bbrsh%E7%A7%8B%E6%B0%B4%E9%80%B8%E5%86%B0)
+  * [4-1bbr.sh](https://github.com/O7Y0/script/blob/main/readme.md#4-1bbrsh94ish)
+  * [bench-cn.sh](https://github.com/O7Y0/script/blob/main/readme.md#bench-cnsh%E7%A7%8B%E6%B0%B4%E9%80%B8%E5%86%B0)
+  * [bench-abroad.sh](https://github.com/O7Y0/script/blob/main/readme.md#bench-abroadsh%E7%A7%8B%E6%B0%B4%E9%80%B8%E5%86%B0)
+  * [memtester.cpp](https://github.com/O7Y0/script/blob/main/readme.md#memtesterfunctionclub)
+  * [uping.py](https://github.com/O7Y0/script/blob/main/readme.md#upingfunctionclub)
+  * [superspeed.sh](https://github.com/O7Y0/script/blob/main/readme.md#superspeeduxh)
+  * [virt-what](https://github.com/O7Y0/script/blob/main/readme.md#virt-whatrats)
 ---
 
 ## MJ相关
