@@ -1,18 +1,18 @@
 # 宁の集散🀄心
 ![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)
-[![GitHub stars](https://img.shields.io/github/stars/O7Y0/script.svg?style=popout&label=Stars)](https://github.com/O7Y0/script/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/O7Y0/script.svg?style=popout&label=Fork)](https://github.com/O7Y0/script/fork)
+[![GitHub stars](https://img.shields.io/github/stars/DaMauu/script.svg?style=popout&label=Stars)](https://github.com/DaMauu/script/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/DaMauu/script.svg?style=popout&label=Fork)](https://github.com/DaMauu/script/fork)
 ## 脚本索引
 * [***MJ相关***](#代理相关)
-  * [sshport.sh](https://github.com/O7Y0/script/blob/main/readme.md#sshportsh)
-  * [bbr.sh](https://github.com/O7Y0/script/blob/main/readme.md#bbrsh%E7%A7%8B%E6%B0%B4%E9%80%B8%E5%86%B0)
-  * [4-1bbr.sh](https://github.com/O7Y0/script/blob/main/readme.md#4-1bbrsh94ish)
-  * [bench-cn.sh](https://github.com/O7Y0/script/blob/main/readme.md#bench-cnsh%E7%A7%8B%E6%B0%B4%E9%80%B8%E5%86%B0)
-  * [bench-abroad.sh](https://github.com/O7Y0/script/blob/main/readme.md#bench-abroadsh%E7%A7%8B%E6%B0%B4%E9%80%B8%E5%86%B0)
-  * [memtester.cpp](https://github.com/O7Y0/script/blob/main/readme.md#memtesterfunctionclub)
-  * [uping.py](https://github.com/O7Y0/script/blob/main/readme.md#upingfunctionclub)
-  * [superspeed.sh](https://github.com/O7Y0/script/blob/main/readme.md#superspeeduxh)
-  * [virt-what](https://github.com/O7Y0/script/blob/main/readme.md#virt-whatrats)
+  * [sshport.sh](https://github.com/DaMauu/script/blob/main/readme.md#sshportsh)
+  * [bbr.sh](https://github.com/DaMauu/script/blob/main/readme.md#bbrsh%E7%A7%8B%E6%B0%B4%E9%80%B8%E5%86%B0)
+  * [4-1bbr.sh](https://github.com/DaMauu/script/blob/main/readme.md#4-1bbrsh94ish)
+  * [bench-cn.sh](https://github.com/DaMauu/script/blob/main/readme.md#bench-cnsh%E7%A7%8B%E6%B0%B4%E9%80%B8%E5%86%B0)
+  * [bench-abroad.sh](https://github.com/DaMauu/script/blob/main/readme.md#bench-abroadsh%E7%A7%8B%E6%B0%B4%E9%80%B8%E5%86%B0)
+  * [memtester.cpp](https://github.com/DaMauu/script/blob/main/readme.md#memtesterfunctionclub)
+  * [uping.py](https://github.com/DaMauu/script/blob/main/readme.md#upingfunctionclub)
+  * [superspeed.sh](https://github.com/DaMauu/script/blob/main/readme.md#superspeeduxh)
+  * [virt-what](https://github.com/DaMauu/script/blob/main/readme.md#virt-whatrats)
 ---
 
 ## MJ相关
@@ -26,7 +26,7 @@ Usage:
 | No.      | Bash Command                    
 |----------|---------------------------------
 | 1        | yum install wget
-| 2        | wget -N --no-check-certificate https://github.com/O7Y0/script/raw/main/sshport.sh && chmod +x sshport.sh && bash sshport.sh
+| 2        | wget -N --no-check-certificate https://github.com/DaMauu/script/raw/main/sshport.sh && chmod +x sshport.sh && bash sshport.sh
 | 3        | 50000（或者任意你稀罕的）
 | 4        | firewall:把修改的ssh端口添加到防火墙的放行端口,一定要执行这一步
 | 5        | #如果防火墙使用的iptables（Centos 6），修改端口为50000
@@ -49,7 +49,7 @@ Usage:
 | No.      | Bash Command                    
 |----------|---------------------------------
 | 1        | yum install wget
-| 2        | wget --no-check-certificate -O /opt/bbr.sh https://github.com/O7Y0/script/raw/main/bbr.sh
+| 2        | wget --no-check-certificate -O /opt/bbr.sh https://github.com/DaMauu/script/raw/main/bbr.sh
 | 3        | chmod 755 /opt/bbr.sh
 | 4        | /opt/bbr.sh
 | 5        | reboot
@@ -67,12 +67,12 @@ Usage:
 | No.      | Bash Command                    
 |----------|---------------------------------
 | 1        | yum install wget
-| 2        | wget -N --no-check-certificate "https://raw.githubusercontent.com/O7Y0/script/main/4-1bbr.sh" && chmod +x 4-1bbr.sh && ./4-1bbr.sh
+| 2        | wget -N --no-check-certificate "https://raw.githubusercontent.com/DaMauu/script/main/4-1bbr.sh" && chmod +x 4-1bbr.sh && ./4-1bbr.sh
 | 3        | n 又可以出现询问卸载内核之类的
 | 4        | y 重启
 | 5        | ./4-1bbr.sh 重新开始使用后续操作
 ```
-![4-1bbr.png](https://raw.githubusercontent.com/O7Y0/script/main/4-1bbr.png)
+![4-1bbr.png](https://raw.githubusercontent.com/DaMauu/script/main/4-1bbr.png)
 ## bench-cn.sh|秋水逸冰
 
 - 脚本说明: 自动测试 I/O 和上传下载速度剧本
@@ -81,7 +81,7 @@ Usage:
 | No.      | Bash Command                    
 |----------|---------------------------------
 | 1        | yum install wget
-| 2        | wget -N --no-check-certificate https://github.com/O7Y0/script/raw/main/bench-cn.sh && chmod +x bench-cn.sh && bash bench-cn.sh
+| 2        | wget -N --no-check-certificate https://github.com/DaMauu/script/raw/main/bench-cn.sh && chmod +x bench-cn.sh && bash bench-cn.sh
 ```
 ## bench-abroad.sh|秋水逸冰
 
@@ -91,9 +91,9 @@ Usage:
 | No.      | Bash Command                    
 |----------|---------------------------------
 | 1        | yum install wget
-| 2        | wget -N --no-check-certificate https://github.com/O7Y0/script/raw/main/bench-abroad.sh && chmod +x bench-abroad.sh && bash bench-abroad.sh
+| 2        | wget -N --no-check-certificate https://github.com/DaMauu/script/raw/main/bench-abroad.sh && chmod +x bench-abroad.sh && bash bench-abroad.sh
 ```
-![bench-abroad.png](https://raw.githubusercontent.com/O7Y0/script/main/bench-abroad.png)
+![bench-abroad.png](https://raw.githubusercontent.com/DaMauu/script/main/bench-abroad.png)
 ## memtester|FunctionClub
 
 - 脚本说明: 检测VPS真实可分配内存
@@ -104,14 +104,14 @@ Usage:
 | /        | CentOS / RHEL
 | 1        | yum install wget
 | 2        | yum groupinstall "Development Tools" -y
-| 3        | wget https://raw.githubusercontent.com/O7Y0/script/raw/main/memtester.cpp
+| 3        | wget https://raw.githubusercontent.com/DaMauu/script/raw/main/memtester.cpp
 | 4        | gcc -l stdc++ memtester.cpp
 | 5        | ./a.out
 |          | 
 | /        | Ubuntu / Debian：
 | 1        | apt-get update
 | 2        | apt-get install wget build-essential -y
-| 3        | wget https://raw.githubusercontent.com/O7Y0/script/raw/main/memtester.cpp
+| 3        | wget https://raw.githubusercontent.com/DaMauu/script/raw/main/memtester.cpp
 | 4        | gcc -l stdc++ memtester.cpp
 | 5        | ./a.out
 ```
@@ -128,17 +128,17 @@ Usage:
 | /        | CentOS / RHEL
 | 1        | yum install screen wget python -y
 | 2        | screen -S uping
-| 3        | wget -N --no-check-certificate https://raw.githubusercontent.com/O7Y0/script/main/uping.py
+| 3        | wget -N --no-check-certificate https://raw.githubusercontent.com/DaMauu/script/main/uping.py
 | 4        | python uping.py
 |          | 
 | /        | Ubuntu / Debian：
 | 1        | apt-get update
 | 2        | apt-get install python wget screen -y
 | 3        | screen -S uping
-| 4        | wget -N --no-check-certificate https://raw.githubusercontent.com/O7Y0/script/main/uping.py
+| 4        | wget -N --no-check-certificate https://raw.githubusercontent.com/DaMauu/script/main/uping.py
 | 5        | python uping.py
 ```
-![uping.png](https://raw.githubusercontent.com/O7Y0/script/main/uping.png)
+![uping.png](https://raw.githubusercontent.com/DaMauu/script/main/uping.png)
 
 ## superspeed|uxh
 
@@ -148,9 +148,9 @@ Usage:
 | No.      | Bash Command                    
 |----------|---------------------------------
 | 1        | yum install wget
-| 2        | wget -N --no-check-certificate https://github.com/O7Y0/script/raw/main/superspeed.sh && chmod +x superspeed.sh && bash superspeed.sh
+| 2        | wget -N --no-check-certificate https://github.com/DaMauu/script/raw/main/superspeed.sh && chmod +x superspeed.sh && bash superspeed.sh
 ```
-![SuperSpeed.png](https://raw.githubusercontent.com/O7Y0/script/main/SuperSpeed.png)
+![SuperSpeed.png](https://raw.githubusercontent.com/DaMauu/script/main/SuperSpeed.png)
 
 ## virt-what|Rat's
 
@@ -160,7 +160,7 @@ Usage:
 | No.      | Bash Command                    
 |----------|---------------------------------
 | 1        | yum install wget
-| 2        | wget https://github.com/O7Y0/script/releases/download/virt-what/virt-what-1.11.tar.gz
+| 2        | wget https://github.com/DaMauu/script/releases/download/virt-what/virt-what-1.11.tar.gz
 | 3        | tar zxf virt-what-1.11.tar.gz   #解压缩包
 | 4        | cd virt-what-1.11               #进入目录
 | 5        | ./configure                     #按默认设置
